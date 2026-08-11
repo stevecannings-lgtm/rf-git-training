@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Team Noticeboard — RF Git Training</title>
+<style>
+  /* ============================================================
+     TASK 4 lives here!
+     Change the colour below to anything you like, then commit
+     and push — the whole page repaints. Colour names work fine:
+     try  tomato,  mediumseagreen,  rebeccapurple,  goldenrod …
+     ============================================================ */
+  :root {
+    --accent: #2E5496;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: #F5F6F8;
+    color: #24292F;
+    line-height: 1.6;
+  }
+  header {
+    background: var(--accent);
+    color: white;
+    padding: 48px 24px 40px;
+    text-align: center;
+  }
+  header h1 { margin: 0 0 8px; font-size: 34px; }
+  header p { margin: 0; opacity: 0.85; }
+  main { max-width: 820px; margin: 0 auto; padding: 24px; }
+  section { margin-top: 36px; }
+  h2 {
+    color: var(--accent);
+    border-bottom: 3px solid var(--accent);
+    padding-bottom: 6px;
+    font-size: 22px;
+  }
+  .loop {
+    display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+    background: white; border: 1px solid #D8DCE3; border-radius: 10px;
+    padding: 14px 18px; font-size: 15px;
+  }
+  .loop b { color: var(--accent); }
+  .loop span.arrow { color: #9AA1AC; }
+  ul.board {
+    list-style: none; padding: 0; margin: 16px 0 0;
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 14px;
+  }
+  li.card {
+    background: white; border: 1px solid #D8DCE3; border-radius: 10px;
+    border-top: 4px solid var(--accent);
+    padding: 14px 16px;
+  }
+  li.card strong { display: block; font-size: 17px; }
+  li.card span { display: block; color: #57606A; font-size: 14px; }
+  li.card em { display: block; margin-top: 8px; font-size: 14px; }
+  .decisions a { color: var(--accent); font-weight: 600; }
+  footer {
+    margin: 56px 0 32px; text-align: center;
+    color: #77808C; font-size: 13px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <!-- Hmm… something's not quite right with this headline. (That's Task 2.) -->
+  <h1>Welcom to the Team Noticeboard</h1>
+  <p>Every change you see on this page arrived as a git commit.</p>
+</header>
+
+<main>
+
+  <section>
+    <h2>How this page changes</h2>
+    <div class="loop">
+      <b>1. Edit</b> a file on your Mac
+      <span class="arrow">→</span>
+      <b>2. Commit</b> (save a snapshot with your name on it)
+      <span class="arrow">→</span>
+      <b>3. Push</b> (send it to GitHub)
+      <span class="arrow">→</span>
+      <b>4. Refresh</b> — this page updates itself
+    </div>
+  </section>
+
+  <section>
+    <h2>Team board</h2>
+    <p>Everyone who has committed to this project gets a card.</p>
+    <ul class="board">
+      <li class="card">
+        <strong>Steve</strong>
+        <span>Technical PM</span>
+        <em>“Set up this training ground.”</em>
+      </li>
+      <!-- ==========================================================
+           TASK 3: copy the card above (everything from <li class="card">
+           to </li>), paste it below this comment, and make it yours —
+           your first name, what you do, and a fun fact.
+           ========================================================== -->
+    </ul>
+  </section>
+
+  <section class="decisions">
+    <h2>Decisions we've written down</h2>
+    <!-- TASK 5: replace the line below with a link to our first ADR. -->
+    <p>None yet — the first one lands in Task 5.</p>
+  </section>
+
+</main>
+
+<footer>Right Formula · git training ground · you can't break this, promise</footer>
+
+</body>
+</html>
