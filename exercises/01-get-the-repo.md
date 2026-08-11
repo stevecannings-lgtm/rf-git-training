@@ -10,7 +10,7 @@
    ```
 2. Clone the repo (make your personal copy of it):
    ```
-   gh repo clone Right-Formula/rf-git-training
+   gh repo clone stevecannings-lgtm/rf-git-training
    ```
 3. Move into it:
    ```
@@ -22,7 +22,7 @@
    ```
    The Team Noticeboard opens in your browser. This is **your local copy**.
 5. Now open the **live version** in another tab:
-   https://right-formula.github.io/rf-git-training/
+   https://stevecannings-lgtm.github.io/rf-git-training/
    Same page — this one is published from GitHub.
 
 ## You should see

@@ -17,7 +17,7 @@ Direct changes to `main` are now locked — try to imagine a bouncer standing in
 3. Put the ADR file Steve sent you into the `doc/adr/` folder (drag it there in Finder, or ask Claude to do it).
 4. Make the decision visible on the noticeboard: in `index.html`, find the **TASK 5** comment and replace the "None yet" line with:
    ```
-   <li><a href="https://github.com/Right-Formula/rf-git-training/blob/main/doc/adr/ADR-001-record-decisions-as-adrs.md">ADR-001 — Record decisions as ADRs</a></li>
+   <li><a href="https://github.com/stevecannings-lgtm/rf-git-training/blob/main/doc/adr/ADR-001-record-decisions-as-adrs.md">ADR-001 — Record decisions as ADRs</a></li>
    ```
    (Ask Claude if the HTML feels fiddly — that's what it's there for.)
 5. Commit and push the branch:

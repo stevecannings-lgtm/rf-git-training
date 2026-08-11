@@ -2,7 +2,7 @@
 
 A safe, breakage-proof repo for learning what git actually is — by changing a real, live website.
 
-**The live page:** https://right-formula.github.io/rf-git-training/
+**The live page:** https://stevecannings-lgtm.github.io/rf-git-training/
 (It's built from `index.html` in this repo. Push a commit, wait a minute, refresh — your change is live.)
 
 ## The loop
